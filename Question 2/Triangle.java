@@ -7,7 +7,7 @@ public class Triangle extends Shape{
     }
 
     public double area(){
-        double area = (1/2) * getDim1() * getDim2();
+        double area = 0.5 * getDim1() * getDim2();
         return area;
     }
 }
